@@ -124,12 +124,21 @@ img.logo:hover {
 }
 
 .list-of-activities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1em;
+ 
 }
 .activities-preview {
+ border: 1px solid #888;
+ padding: 0.5em;
 }
 .Activities-picture {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  background-color: grey;
 }
 .description {
+  display: block;
+  min-height: 1em;
 }
